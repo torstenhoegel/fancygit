@@ -1,0 +1,26 @@
+{
+  "name": "cleangit",
+  "version": "2.0.3",
+  "description": "this cli makes committing clean and easy",
+  "main": "bin/cleangit.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cleangit": "./bin/cleangit.js"
+  },
+  "keywords": [
+    "clean",
+    "git"
+  ],
+  "author": "Torsten Högel <torsten.hoegel@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "chalk": "^5.3.0",
+    "cli-spinners": "^3.2.0",
+    "commander": "^12.1.0",
+    "ora": "^8.1.0"
+  }
+}

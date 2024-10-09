@@ -1,0 +1,20 @@
+{
+  "fancy": {
+    "feat": "🎉 feat:",
+    "fix": "🔧 fix:",
+    "chore": "🧹 chore:",
+    "docs": "📄 docs:",
+    "style": "🖍️ style:",
+    "refactor": "🔄 refactor:",
+    "test": "⌛ test:"
+  },
+  "chunky": {
+    "feat": "/feat/",
+    "fix": "/fix/",
+    "chore": "/chore/",
+    "docs": "/docs/",
+    "style": "/style/",
+    "refactor": "/refactor/",
+    "test": "/test/"
+  }
+}

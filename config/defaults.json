@@ -1,0 +1,6 @@
+{
+  "npm": true,
+  "messageFormatter": true,
+  "push": true,
+  "messageStyle": "clean"
+}

@@ -1,0 +1,7 @@
+{
+  "triggerGitAdd": true,
+  "triggerNpm": true,
+  "triggerMessageFormatter": true,
+  "triggerPush": true,
+  "commitMessageStyle": "chunky"
+}
