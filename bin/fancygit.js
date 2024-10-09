@@ -8,8 +8,8 @@ import { init } from '../lib/init.js';
 
 // Define CLI commands
 program
-    .name('cleangit')
-    .description('A clean and structured way to make git commits')
+    .name('fancygit')
+    .description('A clean and structured way to make git commits and more')
     .version('1.0.0');
 
 // Commit command
@@ -72,7 +72,7 @@ settingsCommand
 // Define the "init" command
 program
     .command('init')
-    .description('Initialize cleangit configuration in the current project')
+    .description('Initialize .fancygit configuration in the current project')
     .action(() => init());
 
 program.parse(process.argv);

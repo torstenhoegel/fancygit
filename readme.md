@@ -1,4 +1,4 @@
-# CleanGit
+# FancyGit
 
 A clean and structured way to make git commits.
 
@@ -14,18 +14,18 @@ A clean and structured way to make git commits.
 ## Installation
 
 ```bash
-npm install -g cleangit
+npm install -g fancygit
 ```
 
 ## Usage
 
-To initialize the cleangit configuration, run the following command:
+To initialize the fancygit configuration, run the following command:
 
 ```bash
-cleangit init
+fancygit init
 ```
 
-This will create a .cleangit directory in your project, which will contain the configuration files.
+This will create a .fancygit directory in your project, which will contain the configuration files.
 
 Currently you can create custom formats for your commit messages and activate or deactivate Settings via the settings command.
 
@@ -34,23 +34,23 @@ The list of features will be expanded in the future. *Feel free to contribute!*
 ### Commit
 
 ```bash
-cleangit run
+fancygit run
 ```
 
 ### Format
 
 ```bash
-cleangit format add <name>
-cleangit format remove <name>
-cleangit format export <name>
-cleangit format export-all
+fancygit format add <name>
+fancygit format remove <name>
+fancygit format export <name>
+fancygit format export-all
 ```
 
 ### Settings
 
 ```bash
-cleangit settings get
-cleangit settings update
+fancygit settings get
+fancygit settings update
 ```
 
 ## Contributing

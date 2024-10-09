@@ -1,14 +1,14 @@
 {
-  "name": "cleangit",
+  "name": "fancygit",
   "version": "1.0.0",
   "description": "this cli makes committing clean and easy",
-  "main": "bin/cleangit.js",
+  "main": "bin/fancygit.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "cleangit": "./bin/cleangit.js"
+    "fancygit": "./bin/fancygit.js"
   },
   "keywords": [
     "clean",

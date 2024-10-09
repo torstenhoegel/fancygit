@@ -1,7 +1,8 @@
 {
+  "logSettings": true,
   "triggerGitAdd": true,
   "triggerNpm": true,
   "triggerMessageFormatter": true,
   "triggerPush": true,
-  "commitMessageStyle": "chunky"
+  "commitMessageStyle": "fancy"
 }
