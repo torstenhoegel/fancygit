@@ -11,6 +11,47 @@ A clean and structured way to make git commits.
 - Committing untracked files
 - Committing uncommitted changes
 
+## Default Commit Message Format
+
+```json
+{
+  "clean": "[type]: [message] -- [description]",
+  "compact": "[type] - [message] -- [description]",
+  "modern": "<type> | [message] -- [description]"
+}
+```
+
+These are the default commit message formats that are used when formatting a commit message.
+You can create your own custom formats by running `fancygit format add <name>`.
+
+Another option is to create a formats.json file in the .fancygit directory and specify your custom formats there.
+This can be especially useful if you want to use the same format for multiple projects.
+
+
+**Demo formats:**
+```json
+{
+  "fancy": {
+    "feat": "🎉 feat:",
+    "fix": "🔧 fix:",
+    "chore": "🧹 chore:",
+    "docs": "📄 docs:",
+    "style": "🖍️ style:",
+    "refactor": "🔄 refactor:",
+    "test": "⌛ test:"
+  },
+  "chunky": {
+    "feat": "/feat/",
+    "fix": "/fix/",
+    "chore": "/chore/",
+    "docs": "/docs/",
+    "style": "/style/",
+    "refactor": "/refactor/",
+    "test": "/test/"
+  }
+}
+```
+
 ## Installation
 
 ```bash
