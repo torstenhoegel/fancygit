@@ -1,6 +1,6 @@
 {
   "name": "cleangit",
-  "version": "2.0.3",
+  "version": "1.0.0",
   "description": "this cli makes committing clean and easy",
   "main": "bin/cleangit.js",
   "type": "module",
