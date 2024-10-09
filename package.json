@@ -1,6 +1,6 @@
 {
   "name": "fancygit",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "this cli makes committing clean and easy",
   "main": "bin/fancygit.js",
   "type": "module",
